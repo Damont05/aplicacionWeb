@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const uri = 'mongodb://localhost/usuario';
+const uri = 'mongodb://localhost/producto';
 
 mongoose.connect(uri)
     .then(db => console.log('------->Base de datos CONECTADA<-------'))

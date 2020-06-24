@@ -10,7 +10,7 @@ app.use(exprees.json());
 
 
 
-
+app.use('/api/productos/', require('./rutas/rutasProductos'));
 
 
 
